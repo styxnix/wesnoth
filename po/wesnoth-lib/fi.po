@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 0.8.2-CVS\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-12-17 19:09-0600\n"
-"PO-Revision-Date: 2022-06-24 15:45+0300\n"
+"PO-Revision-Date: 2023-01-05 16:34+0200\n"
 "Last-Translator: Jaakko Saarikko <jaakko.saarikko@protonmail.com>\n"
 "Language-Team: Finnish <http://wiki.wesnoth.org/FinnishTranslation>\n"
 "Language: fi\n"
@@ -51,7 +51,7 @@ msgstr "Keh. tekoäly: Oletustekoäly (RCA) vaihtoeht. värväyksellä"
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:5
 #: data/core/terrain.cfg:513 data/core/terrain.cfg:523
 msgid "Fence"
-msgstr "aita"
+msgstr "Aita"
 
 #. [terrain_type]: id=deep_water_gray
 #. [terrain_type]: id=deep_water_medium
@@ -60,17 +60,17 @@ msgstr "aita"
 #: data/core/terrain.cfg:23 data/core/terrain.cfg:34 data/core/terrain.cfg:45
 #: data/core/terrain.cfg:3310 data/core/terrain.cfg:3311
 msgid "Deep Water"
-msgstr "syvää vettä"
+msgstr "Syvää vettä"
 
 #. [terrain_type]: id=deep_water_gray
 #: data/core/terrain.cfg:24
 msgid "Gray Deep Water"
-msgstr "syvää harmaata vettä"
+msgstr "Syvää harmaata vettä"
 
 #. [terrain_type]: id=deep_water_medium
 #: data/core/terrain.cfg:35
 msgid "Medium Deep Water"
-msgstr "melko syvää vettä"
+msgstr "Melko syvää vettä"
 
 #. [terrain_type]: id=deep_water_tropical
 #: data/core/terrain.cfg:46
@@ -2353,7 +2353,6 @@ msgstr "Asenna lisäosa"
 msgid "Update add-on"
 msgstr "Päivitä lisäosa"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=single_publish
 #. [button]: id=publish
 #: data/gui/widget/addon_list.cfg:412 data/gui/window/addon_manager.cfg:613
@@ -2361,7 +2360,6 @@ msgstr "Päivitä lisäosa"
 msgid "Publish add-on"
 msgstr "Julkaise lisäosa"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=single_uninstall
 #. [button]: id=uninstall
 #: data/gui/widget/addon_list.cfg:435 data/gui/window/addon_manager.cfg:590
@@ -2425,7 +2423,6 @@ msgstr "Salasana:"
 msgid "Save password locally (encrypted)"
 msgstr "Tallenna salasana paikallisesti (salattuna)"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #: data/gui/window/addon_auth.cfg:139 data/gui/window/custom_tod.cfg:431
 #: data/gui/window/depcheck_select_new.cfg:151
@@ -2450,7 +2447,6 @@ msgstr "Tallenna salasana paikallisesti (salattuna)"
 msgid "OK"
 msgstr "Ok"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=cancel
 #. [button]: id=placeholder
 #: data/gui/window/addon_auth.cfg:153 data/gui/window/addon_connect.cfg:211
@@ -2579,7 +2575,6 @@ msgstr "Lähetetty:"
 msgid "date^Updated:"
 msgstr "Päivitetty:"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [scroll_label]: id=description
 #: data/gui/window/addon_manager.cfg:415
 #: src/gui/dialogs/multiplayer/mp_create_game.cpp:560
@@ -2611,7 +2606,6 @@ msgstr "Poista lisäosa"
 msgid "Dependencies:"
 msgstr "Riippuvuudet:"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=dependencies
 #: data/gui/window/addon_manager.cfg:681 src/gui/dialogs/addon/manager.cpp:1077
 msgid "addon_dependencies^None"
@@ -2622,7 +2616,6 @@ msgstr "Ei riippuvuuksia"
 msgid "Translations:"
 msgstr "Käännökset:"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=translations
 #: data/gui/window/addon_manager.cfg:716 src/gui/dialogs/addon/manager.cpp:1091
 msgid "translations^None"
@@ -2661,7 +2654,6 @@ msgstr "Käsky:"
 msgid "Add-ons Manager"
 msgstr "Lisäosamanageri"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=details_toggle
 #: data/gui/window/addon_manager.cfg:1067 src/gui/dialogs/addon/manager.cpp:540
 #: src/gui/dialogs/addon/manager.cpp:812
@@ -2858,7 +2850,6 @@ msgstr "Vaikeusaste:"
 msgid "Select difficulty:"
 msgstr "Valitse vaikeustaso:"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/chat_log.cfg:36 src/hotkey/hotkey_command.cpp:281
 msgid "Chat Log"
@@ -2912,7 +2903,6 @@ msgstr "Kopioi tämä loki leikepöydälle"
 msgid "Load Core"
 msgstr "Avaa ydin"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #: data/gui/window/core_dialog.cfg:228 src/preferences/display.cpp:119
 msgid "Select"
@@ -2953,7 +2943,6 @@ msgstr "Selaa tätä sijaintia käyttäen tiedostonhallintaa"
 msgid "Edit Time Schedule"
 msgstr "Muokkaa aikataulua"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/custom_tod.cfg:177
 #: data/gui/window/editor_edit_scenario.cfg:106
@@ -3016,7 +3005,6 @@ msgstr "Uusi VrkAi"
 msgid "Delete ToD"
 msgstr "Poista VrkAi"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/depcheck_confirm_change.cfg:40
 #: src/gui/dialogs/addon/manager.cpp:972 src/gui/dialogs/file_dialog.cpp:303
@@ -3029,7 +3017,6 @@ msgstr "Vahvista"
 msgid "Would you like to apply the changes?"
 msgstr "Haluatko asettaa muutokset käyttöön?"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #: data/gui/window/depcheck_confirm_change.cfg:128
 #: data/gui/window/game_delete.cfg:107
@@ -3040,7 +3027,6 @@ msgstr "Haluatko asettaa muutokset käyttöön?"
 msgid "Yes"
 msgstr "Kyllä"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=cancel
 #: data/gui/window/depcheck_confirm_change.cfg:142
 #: data/gui/window/game_delete.cfg:121
@@ -3121,7 +3107,6 @@ msgstr "Tunniste:"
 msgid "Description:"
 msgstr "Kuvaus:"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/editor_edit_scenario.cfg:170
 #: src/gui/dialogs/multiplayer/lobby.cpp:454
@@ -3186,7 +3171,6 @@ msgstr "Piilota statuspöydässä"
 msgid "Gold:"
 msgstr "Kultaa:"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/editor_edit_side.cfg:276
 #: src/gui/dialogs/multiplayer/lobby.cpp:455
@@ -3208,7 +3192,6 @@ msgstr "Tuki per kylä:"
 msgid "Controller:"
 msgstr "Ohjaaja:"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [row]
 #: data/gui/window/editor_edit_side.cfg:372 src/gui/dialogs/game_stats.cpp:71
 msgid "controller^Human"
@@ -3244,7 +3227,6 @@ msgstr "Huntu"
 msgid "vision^None"
 msgstr "Ei näköä"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/editor_generate_map.cfg:43 src/hotkey/hotkey_command.cpp:245
 msgid "Generate Map"
@@ -3255,7 +3237,6 @@ msgstr "Generoi kartta"
 msgid "Choose a map generator:"
 msgstr "Valitse karttageneraattori:"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=settings
 #. [button]: id=random_map_settings
 #: data/gui/window/editor_generate_map.cfg:128
@@ -3274,7 +3255,6 @@ msgstr "Numeerinen siemen:"
 msgid "Generate"
 msgstr "Generoi"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=title
 #: data/gui/window/editor_new_map.cfg:36 src/hotkey/hotkey_command.cpp:177
 msgid "New Map"
@@ -3299,7 +3279,6 @@ msgstr "Korkeus:"
 msgid "Create"
 msgstr "Luo"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/editor_resize_map.cfg:35 src/hotkey/hotkey_command.cpp:244
 msgid "Resize Map"
@@ -3505,7 +3484,6 @@ msgstr "Älä näytä uudestaan"
 msgid "Date"
 msgstr "Päivämäärä"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
 #. [button]: id=load_game
 #: data/gui/window/game_load.cfg:317 data/gui/window/mp_create_game.cfg:944
@@ -3559,14 +3537,12 @@ msgstr "Kumoa suorittamattomia yksikköliikkeitä tallennuksessa"
 msgid "Load"
 msgstr "Avaa"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
 #: data/gui/window/game_save.cfg:42 data/gui/window/game_save_message.cfg:42
 #: data/gui/window/game_save_oos.cfg:42 src/hotkey/hotkey_command.cpp:105
 msgid "Save Game"
 msgstr "Tallenna peli"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #. [button]: id=save
 #: data/gui/window/game_save.cfg:120
@@ -3605,14 +3581,12 @@ msgstr "Johtaja"
 msgid "Team"
 msgstr "Joukkue"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_2
 #: data/gui/window/game_stats.cfg:63
 #: src/gui/dialogs/multiplayer/mp_join_game.cpp:436
 msgid "Gold"
 msgstr "Kultaa"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_3
 #: data/gui/window/game_stats.cfg:76
 #: src/generators/default_map_generator.cpp:198
@@ -3629,7 +3603,6 @@ msgstr "Yksiköt"
 msgid "Upkeep"
 msgstr "Ylläpito"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_6
 #. [image]: id=income_icon
 #. [label]: id=side_income
@@ -3681,7 +3654,6 @@ msgstr ""
 "Tuki per\n"
 "kylä"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=title
 #: data/gui/window/game_stats.cfg:705 src/gui/dialogs/game_stats.cpp:255
 msgid "Current Status"
@@ -3692,7 +3664,6 @@ msgstr "Nykyinen tila"
 msgid "Game Stats"
 msgstr "Pelitilastot"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [widget]: id=tab_label
 #: data/gui/window/game_stats.cfg:793 src/gui/dialogs/game_stats.cpp:255
 msgid "Scenario Settings"
@@ -3977,14 +3948,12 @@ msgstr "Käännä suodatin"
 msgid "Create Game"
 msgstr "Luo peli"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=join_global
 #: data/gui/window/lobby_main.cfg:530 data/gui/window/lobby_main.cfg:794
 #: src/gui/dialogs/multiplayer/lobby.cpp:863
 msgid "Join"
 msgstr "Sisäänkirjautuminen"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=observe_global
 #: data/gui/window/lobby_main.cfg:542 data/gui/window/lobby_main.cfg:817
 #: src/gui/dialogs/multiplayer/lobby.cpp:829
@@ -3998,7 +3967,6 @@ msgstr "Tarkkaile"
 msgid "Announcements"
 msgstr "Ilmoitukset"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=show_preferences
 #. [label]: id=title
 #. [grid]
@@ -4254,7 +4222,6 @@ msgstr "Kun pelaaja poistuu aulasta tai pelistä"
 msgid "When a whisper is received"
 msgstr "Kun saat kuiskauksen"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [grid]
 #: data/gui/window/mp_alerts_options.cfg:186
 #: src/gui/dialogs/multiplayer/mp_report.cpp:49
@@ -4543,7 +4510,6 @@ msgstr "Toimintobonus"
 msgid "Time for each attack, recruit, and capture"
 msgstr "Aika jokaiselle hyökkäykselle, rekrytoinnille ja kaappaukselle"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [widget]: id=tab_label
 #. [widget]: id=label
 #: data/gui/window/mp_create_game.cfg:579 data/gui/window/preferences.cfg:292
@@ -4620,7 +4586,6 @@ msgid ""
 "Set the password that people wanting to join your game as players must enter"
 msgstr "Aseta salasana joka vaaditaan peliin haluavilta pelaajilta"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/mp_create_game/default_resolution.cfg:176
 #: data/gui/window/mp_create_game/small_resolution.cfg:181
@@ -4702,7 +4667,6 @@ msgstr "Poistu"
 msgid "Game Lobby"
 msgstr "Peliaula"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=status_label
 #: data/gui/window/mp_join_game.cfg:491 data/gui/window/mp_staging.cfg:623
 #: data/gui/window/mp_staging.cfg:815
@@ -4730,7 +4694,6 @@ msgstr "Sisäänkirjautuminen"
 msgid "Login:"
 msgstr "Käyttäjänimi:"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #. [widget]: id=label
 #. [grid]
@@ -5025,7 +4988,6 @@ msgstr "Toiminto"
 msgid "Hotkey"
 msgstr "Pikanäppäin"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_2
 #. Translate G as the initial letter for Game
 #: data/gui/window/preferences/02_hotkeys.cfg:118
@@ -5038,7 +5000,6 @@ msgstr "G"
 msgid "Available in game"
 msgstr "Saatavilla pelissä"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_3
 #. Translate E as the initial letter for Editor
 #: data/gui/window/preferences/02_hotkeys.cfg:131
@@ -5051,7 +5012,6 @@ msgstr "E"
 msgid "Available in editor"
 msgstr "Saatavilla editorissa"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_4
 #. Translate M as the initial letter for Main Menu
 #: data/gui/window/preferences/02_hotkeys.cfg:144
@@ -5506,7 +5466,6 @@ msgstr "Muokkaa asetuksia valituille mukautettuihin muunnelmiin."
 msgid "Overall"
 msgstr "Yleistilanne"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=title
 #: data/gui/window/statistics_dialog.cfg:490 src/hotkey/hotkey_command.cpp:127
 msgid "Statistics"
@@ -5570,7 +5529,6 @@ msgstr ""
 "Vihreät arvot viittaavat tämän puolen pärjänneen paremmin kuin odotettua.\n"
 "Punaiset arvot viittaavat tämän puolen pärjänneen huonommin kuin odotettua."
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
 #: data/gui/window/surrender_quit.cfg:40 src/hotkey/hotkey_command.cpp:130
 msgid "Surrender Game"
@@ -5651,7 +5609,6 @@ msgstr "Liput"
 msgid "Choose Theme"
 msgstr "Valitse teema"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=help
 #: data/gui/window/title_screen.cfg:174 src/hotkey/hotkey_command.cpp:279
 msgid "Help"
@@ -5804,7 +5761,6 @@ msgstr "Taso"
 msgid "XP"
 msgstr "KP"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_6
 #. [toggle_button]: id=sort_4
 #: data/gui/window/unit_list.cfg:176 data/gui/window/unit_recall.cfg:89
@@ -5813,7 +5769,6 @@ msgstr "KP"
 msgid "Traits"
 msgstr "Ominaisuudet"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/unit_list.cfg:367 src/hotkey/hotkey_command.cpp:126
 msgid "Unit List"
@@ -5840,7 +5795,6 @@ msgstr "Uudelleennimeä"
 msgid "Dismiss"
 msgstr "Vapauta"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #: data/gui/window/unit_recall.cfg:450 src/hotkey/hotkey_command.cpp:111
 msgid "Recall"
@@ -5851,13 +5805,11 @@ msgstr "Kutsu veteraaniyksikkö"
 msgid "Recruit Unit"
 msgstr "Värvää yksikkö"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #: data/gui/window/unit_recruit.cfg:231 src/hotkey/hotkey_command.cpp:109
 msgid "Recruit"
 msgstr "Värvää"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/wml_error.cfg:40 src/gui/dialogs/message.cpp:209
 #: src/gui/dialogs/preferences_dialog.cpp:233
@@ -5865,7 +5817,6 @@ msgstr "Värvää"
 msgid "Error"
 msgstr "Virhe"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=details_heading
 #: data/gui/window/wml_error.cfg:112 src/gui/dialogs/multiplayer/lobby.cpp:180
 #: src/gui/dialogs/multiplayer/lobby.cpp:196 src/gui/dialogs/wml_error.cpp:160
@@ -7544,7 +7495,7 @@ msgstr "Loitonna"
 
 #: src/hotkey/hotkey_command.cpp:95
 msgid "Default Zoom"
-msgstr "Vakiotäisyys"
+msgstr "Vakioetäisyys"
 
 #: src/hotkey/hotkey_command.cpp:96
 msgid "Toggle Full Screen"
