@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-12-18 01:09 UTC\n"
-"PO-Revision-Date: 2023-01-05 11:32+0200\n"
+"PO-Revision-Date: 2023-01-06 01:04+0200\n"
 "Last-Translator: Jaakko Saarikko <jaakko.saarikko@protonmail.com>\n"
 "Language-Team: Finnish <http://wiki.wesnoth.org/FinnishTranslation>\n"
 "Language: fi\n"
@@ -1293,11 +1293,17 @@ msgid ""
 "the local villages here, forcing them to swear allegiance to her. That was "
 "the purpose of that patrol."
 msgstr ""
+"Siitä lähtien kun prinssi Eldred kuoli taistelussa, kuningatar nousi "
+"valtaistuimelle ja on lujittanut valtaansa. Osa sitä on ollut paikallisten "
+"kylien vanhinten tuominen tänne, ja heidän on pakottaminen vannomaan "
+"uskollisuutta hänelle. Se oli sen partion tarkoitus."
 
 #. [message]: speaker=Baldras
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:215
 msgid "Annuvin province be ruled by Elensefar! We has no duty to Weldyn."
 msgstr ""
+"Annuvinin maakuntaa hallitsee Elensefar! Meitillä ei oo mitään "
+"velvollisuuksia Weldynin suuntaan."
 
 #. [message]: speaker=Lord Maddock
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:219
@@ -1305,6 +1311,8 @@ msgid ""
 "You do now. I do not really need to tell you what will happen should you "
 "refuse Her Majesty’s offer."
 msgstr ""
+"Nyt sinulla on. Minun ei tarvitse kertoa mitä tapahtuu, jos kieltäydyt hänen "
+"majesteettinsa tarjouksesta."
 
 #. [message]: speaker=Baldras
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:223
@@ -1312,6 +1320,9 @@ msgid ""
 "Grow a spine, Maddock. If they come to ya and make you swear fealty to this "
 "Asheviere, would ya really give up that easy?"
 msgstr ""
+"Maddock, kasvattaisit selkärangan. Jos he tulisivat luoksesi ja pyytäisivät "
+"vannomaan uskollisuutta tälle Ashevierelle, antaisitko todella periksi niin "
+"helposti?"
 
 #. [message]: speaker=Lord Maddock
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:227
@@ -1323,11 +1334,16 @@ msgid ""
 "of Abez, but unless we are attacked within the next few days, I shall be "
 "able to hold the city."
 msgstr ""
+"No, he eivät tule kaupunkini muurien sisälle. Halsteadin suuren linnoituksen "
+"eteläpuolella on suuri varuskunta, mutta vaikka he mobilisoisivat kaikki "
+"joukkonsa, epäilen, etteivät he pysty valtaamaan Elensefaria. On totta, että "
+"suurin osa joukoistani on vielä palaamassa Abezin taistelusta, mutta ellei "
+"meidän kimppuun hyökätä lähipäivinä, pystyn pitämään kaupungin."
 
 #. [message]: speaker=Baldras
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:231
 msgid "And what abouts us? Throw us like dogs to those Wesnothians?"
-msgstr ""
+msgstr "Mutta entäpä me? Heitätkö meitit kuin koirat niille wesnothilaisille?"
 
 #. [message]: speaker=Lord Maddock
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:235
@@ -1337,6 +1353,10 @@ msgid ""
 "same time, I have some concessions that I shall have to make. I cannot "
 "afford a war with Weldyn, as you can surely understand."
 msgstr ""
+"Meillä on levoton rauha ylläpidettävänä. Elensefarin ja Wesnothin välinen "
+"sopimus on ikivanha, enkä usko, että hänen majesteettinsa aikoo rikkoa sitä. "
+"Samalla minulla on joitakin myönnytyksiä, jotka minun on tehtävä. Minulla ei "
+"ole varaa käydä sotaa Weldynin kanssa, kuten varmasti ymmärrät."
 
 #. [message]: speaker=Harper
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:239
@@ -1344,6 +1364,8 @@ msgid ""
 "But we can’t do nothing! The Queen even be sending them beast orcs against "
 "us, that’s how evil she is! Surely you can’t stand for this..."
 msgstr ""
+"Mutta me ei voida tehdä mitään! Kuningatar on niin paha, että lähettää jopa "
+"örkki petojaan meitä vastaan! Kuinka voit sietää tällaista..."
 
 #. [message]: speaker=Lord Maddock
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:243
@@ -1354,13 +1376,20 @@ msgid ""
 "Even if they may want your head, Baldras, you still have the chance to "
 "preserve your village. Think of the bigger picture."
 msgstr ""
+"Kyllä, olen tietoinen kuningatar Ashevieren taipumuksesta palkata örkkejä "
+"täydentämään joukkojaan. Se ei tarkoita kuitenkaan, että voisin tehdä "
+"asialle mitään, vaikka olisinkin halukas sitä tekemään. Paras neuvo, jonka "
+"voin teille antaa, on pyytää anteeksi. Vaikka he haluaisivatkin päätäsi, "
+"Baldras, sinulla on silti mahdollisuus säilyttää kyläsi. Ajattele suurempaa "
+"kuvaa."
 
 #. [message]: speaker=Baldras
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:247
+#, fuzzy
 msgid ""
 "The bigger picture of you idly sittin’ here waiting till them Wesnothians "
 "come to take the city right from your hands."
-msgstr ""
+msgstr "Sinun suurempi"
 
 #. [message]: speaker=Lord Maddock
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:251

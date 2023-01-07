@@ -1,3 +1,6 @@
+# for styxnix translation fork gitignores
+#*.mo
+
 # stderr.txt output + copies
 stderr*.txt
 stdout*.txt

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-units-fi\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-12-18 01:09 UTC\n"
-"PO-Revision-Date: 2023-01-05 16:32+0200\n"
+"PO-Revision-Date: 2023-01-07 11:55+0200\n"
 "Last-Translator: Jaakko Saarikko <jaakko.saarikko@protonmail.com>\n"
 "Language-Team: Finnish <http://wiki.wesnoth.org/FinnishTranslation>\n"
 "Language: fi\n"
@@ -4329,15 +4329,11 @@ msgstr ""
 
 #. [special_note]
 #: data/core/units/humans/Loyalist_Javelineer.cfg:20
-#, fuzzy
-#| msgid ""
-#| "Compared to other loyalists, Halberdiers have a higher resistance to "
-#| "‘pierce’ attacks."
 msgid ""
 "Compared to other loyalists, Javelineers have a higher resistance to "
 "‘pierce’ attacks."
 msgstr ""
-"Muihin uskollisiin verrattuna, hilparimiehillä on suurempi vastustus "
+"Muihin uskollisiin verrattuna, keihäänheittäjillä on suurempi vastustus "
 "\"lävistäviin\" hyökkäyksiin."
 
 #. [unit_type]: id=Lieutenant, race=human
@@ -4355,6 +4351,12 @@ msgid ""
 "more than made up for by their superior knowledge and training in military "
 "strategy."
 msgstr ""
+"Luutnantit ovat arvostettuja upseereja ihmisten keskuudessa, ja heidät "
+"nähdään usein johtamassa pienempiä hyökkäystä ja hallitsemassa "
+"taistelukenttää. He eivät ole kovin erinomaisia miekkansa tai varsijousensa "
+"käyttäjiä, ja he ovat hieman vähemmän sitkeämpiä kuin muiden rotujen "
+"sotapäälliköt. Tämän he kompensoivat ylivoimaisella sotilaallisen "
+"strategiansa tuntemuksella ja koulutuksella."
 
 #. [unit_type]: id=Longbowman, race=human
 #: data/core/units/humans/Loyalist_Longbowman.cfg:4
@@ -4822,6 +4824,8 @@ msgid ""
 "Compared to other mages, Red Mages have a higher resistance to ‘fire’ "
 "attacks."
 msgstr ""
+"Muihin velhoihin verrattuna punaisilla velhoilla on korkeampi vastustuskyky "
+"\"tuli\" hyökkäyksiä vastaan."
 
 #. [female]
 #: data/core/units/humans/Mage_Red.cfg:98
@@ -4876,16 +4880,13 @@ msgstr ""
 
 #. [special_note]
 #: data/core/units/humans/Mage_Silver.cfg:25
-#, fuzzy
-#| msgid ""
-#| "SPECIAL_NOTE^ Silver Magi are well-attuned to their magical natures and "
-#| "are highly resistant to non-physical damage."
 msgid ""
 "SPECIAL_NOTE^Silver Magi are well-attuned to their magical natures and are "
 "highly resistant to non-physical damage."
 msgstr ""
-"Hopeavelhot ovat hyvin tottuneita heidän maagiseen luonteeseensa ja ovat "
-"siksi erittäin vastustuskykyisiä hengellisille(esim. taikuus) hyökkäyksille."
+"Hopeavelhot ovat hyvin tottuneita ympärillään vellovaan taikuuteen ja ovat "
+"siksi erittäin vastustuskykyisiä kaikille hengellisille (esim. taikuuden) "
+"hyökkäyksille."
 
 #. [female]
 #: data/core/units/humans/Mage_Silver.cfg:163
@@ -4962,6 +4963,8 @@ msgid ""
 "Compared to other mages, Mages of Light have a higher resistance to ‘arcane’ "
 "attacks."
 msgstr ""
+"Muihin velhoihin verrattuna, valkeilla velhoilla on suurempi vastustus "
+"\"salatiede\" tyypin hyökkäyksiä vastaan."
 
 #. [female]
 #: data/core/units/humans/Mage_of_Light.cfg:102
@@ -5467,19 +5470,6 @@ msgstr "Merenmiesvangitsija"
 
 #. [unit_type]: id=Merman Entangler, race=merman
 #: data/core/units/merfolk/Entangler.cfg:19
-#, fuzzy
-#| msgid ""
-#| "Merfolk tend to use a combination of both nets and clubs in fishing; nets "
-#| "to collect the fish, and clubs to finish the kill. Both of these tools "
-#| "have seen adaptation for warfare, and are valuable enough that "
-#| "auxilliaries who specialize in using them are deliberately brought to "
-#| "battle.\n"
-#| "\n"
-#| "Mermen often find themselves in a standoff with land-based enemies; the "
-#| "merfolk are too strong in the water, and are too weak to make any offense "
-#| "on land. Nets are a key bit of leverage; without nets, mermen can’t give "
-#| "any effective chase over land, and are at a great disadvantage in hand-to-"
-#| "hand combat."
 msgid ""
 "Merfolk tend to use a combination of both nets and clubs in fishing; nets to "
 "collect the fish, and clubs to finish the kill. Both of these tools have "
@@ -5492,7 +5482,7 @@ msgid ""
 "effective chase over land, and are at a great disadvantage in hand-to-hand "
 "combat."
 msgstr ""
-"Merikansa tapaa käyttää verkkojen ja nuijien yhdistelmää kalastuksessa. "
+"Merenväki tapaa käyttää verkkojen ja nuijien yhdistelmää kalastuksessa. "
 "Verkoilla kerätään kalat, nuijilla tapetaan ne. Kumpiakin työkaluja on "
 "sovellettu sodankäynnissä ja ne ovat tarkoitukseen niin hyviä, että "
 "apujoukot, jotka ovat erikoistuneet näiden käytössä, päästetään mukaan "
@@ -5551,21 +5541,15 @@ msgstr "Merenmiesmetsästäjä"
 
 #. [unit_type]: id=Merman Hunter, race=merman
 #: data/core/units/merfolk/Hunter.cfg:18
-#, fuzzy
-#| msgid ""
-#| "The skills employed by mermen in spear-fishing are easily translated into "
-#| "warfare, especially against those who are not at home in the water. In "
-#| "times of need, many mermen of that occupation will volunteer to swell the "
-#| "ranks of their military."
 msgid ""
 "The skills employed by merfolk in spear-fishing are easily translated into "
 "warfare, especially against those who are not at home in the water. In times "
 "of need, many merfolk of that occupation will volunteer to swell the ranks "
 "of their military."
 msgstr ""
-"Merenmiesten keihäskalastustaidot sopivat hyvin sodankäyntiin, varsinkin "
-"niitä vastaan, jotka eivät asu vedessä. Kun tarve tulee, monet merenmiehet "
-"siitä ammatista menevät vapaaehtoisina sotimaan."
+"Merenväen keihäskalastustaidot sopivat hyvin sodankäyntiin, varsinkin niitä "
+"vastaan, jotka eivät asu vedessä. Kun tarve tulee, monet merenväestä lähtevä "
+"siitä ammatista vapaaehtoisina sotimaan."
 
 #. [unit_type]: id=Mermaid Initiate, race=merman
 #: data/core/units/merfolk/Initiate.cfg:4
@@ -5596,23 +5580,16 @@ msgstr "Merenmiesharppuunoija"
 
 #. [unit_type]: id=Merman Javelineer, race=merman
 #: data/core/units/merfolk/Javelineer.cfg:18
-#, fuzzy
-#| msgid ""
-#| "Those mermen who master the art of the javelin can become nearly as "
-#| "effective as an archer — though the heft of their weapons impedes their "
-#| "range, the impact of one is considerably greater. In the water, the "
-#| "mobility of the mermen more than makes up for this when facing foes who "
-#| "cannot swim."
 msgid ""
 "Those merfolk who master the art of the javelin can become nearly as "
 "effective as an archer — though the heft of their weapons impedes their "
 "range, the impact of one is considerably greater. In the water, the mobility "
 "of the merfolk more than makes up for this when facing foes who cannot swim."
 msgstr ""
-"Ne merenmiehet, jotka hallitsevät keihäänheiton taidon, voivat tulevat lähes "
+"Ne merenväestä, jotka hallitsevat keihäänheiton taidon, voivat tulevat lähes "
 "yhtä tehokkaiksi kuin jousimiehet – vaikka aseen massa huonontaakin sen "
-"kantomatkaa, sen isku on huomattavasti kovempi. Vedessä merenmiesten "
-"liikkuvuus korvaa tämän hyvin, jos vastassa on uimataidottomia vihollisia."
+"kantomatkaa, sen isku on huomattavasti kovempi. Vedessä merenväen liikkuvuus "
+"korvaa tämän hyvin, jos vastassa on uimataidottomia vihollisia."
 
 #. [unit_type]: id=Merman Netcaster, race=merman
 #: data/core/units/merfolk/Netcaster.cfg:4
@@ -5621,20 +5598,6 @@ msgstr "Merenmiesverkonheittäjä"
 
 #. [unit_type]: id=Merman Netcaster, race=merman
 #: data/core/units/merfolk/Netcaster.cfg:18
-#, fuzzy
-#| msgid ""
-#| "Fishing, as practiced by mermen, is largely a matter of chasing schools "
-#| "of fish into waiting nets, where oar-like clubs are used to dispatch the "
-#| "prey. The improvisation of using these against soldiers proved very "
-#| "effective; most land-native creatures are already quite awkward when "
-#| "waist-deep in water, and getting caught in a net can render them nearly "
-#| "helpless.\n"
-#| "\n"
-#| "The effectiveness of this method led to the development of smaller, "
-#| "weighted nets, which could be cast through the air; these were useless "
-#| "for fishing, but were useful in both combat, and in hunting game that "
-#| "came too close to shore. Clubs were used in combat with little or no "
-#| "adaptation from fishing, since they were already quite deadly."
 msgid ""
 "Fishing, as practiced by merfolk, is largely a matter of chasing schools of "
 "fish into waiting nets, where oar-like clubs are used to dispatch the prey. "
@@ -5648,17 +5611,18 @@ msgid ""
 "shore. Clubs were used in combat with little or no adaptation from fishing, "
 "since they were already quite deadly."
 msgstr ""
-"Merikansan käsitys kalastuksesta on periaatteessa kalaparvien ajamista "
+"Merenväen käsitys kalastuksesta on periaatteessa kalaparvien ajamista "
 "verkkoihin, jonka jälkeen saalis nuijitaan kuoliaaksi. Tyylin soveltaminen "
-"sotilaita vastaan oli tehokas ratkaisu. Useimmat maalla asuvat ovat jo "
-"valmiiksi epämiellyttävässä tilassa ollessaan napaa myöten vedessä – "
-"verkkoon joutuminen tekee ne lähes täydellisen avuttomiksi.\n"
+"vihollisen sotilaita vastaan on ollut myös tehokas ratkaisu. Useimmat maalla "
+"asuvat ovat jo valmiiksi epämiellyttävässä tilassa ollessaan napaa myöten "
+"vedessä ja verkkoon joutuminen tekee ne lähes täydellisen avuttomiksi.\n"
 "\n"
-"Metodin tehokkuus johti pienempien, painotettujen verkkojen valmistukseen. "
-"Nämä verkot voidaan heittää ilmaan. Vaikka ne eivät enää sovellu "
-"kalastukseen, ne ovat taistelussa tai metsästyksessä käytännöllisiä – jos "
-"riista tulee liian lähelle rantaa. Melamaisia nuijia käytetään taistelussa "
-"ilman suurempia muutoksia – ne ovat jo valmiiksi tappavia."
+"Menetelmän tehokkuus johti pienempien, painotettujen verkkojen "
+"valmistukseen, sillä näitä verkkoja voidaan heittää ilmaan. Vaikka ne eivät "
+"enää sovellu kalastukseen, ne ovat taistelussa tai metsästyksessä hyvin "
+"käytännöllisiä – jos riista tulee liian lähelle rantaa. Melamaisia nuijia "
+"käytetään taistelussa ilman suurempia muutoksia – ne ovat jo valmiiksi "
+"tappavia."
 
 #. [unit_type]: id=Mermaid Priestess, race=merman
 #: data/core/units/merfolk/Priestess.cfg:4
@@ -5667,13 +5631,6 @@ msgstr "Merenneitopapitar"
 
 #. [unit_type]: id=Mermaid Priestess, race=merman
 #: data/core/units/merfolk/Priestess.cfg:21
-#, fuzzy
-#| msgid ""
-#| "Among mermen, mysticism is generally left to the mermaids, who are more "
-#| "inclined to it. It is they who dedicate themselves to the ideal of "
-#| "bringing peace and life to the world, and to the arts which make that "
-#| "possible. Their piety also grants them certain powers, allowing them to "
-#| "guard their people against magical or unnatural things."
 msgid ""
 "Among merfolk, mysticism is generally left to the mermaids, who are more "
 "inclined to it. It is they who dedicate themselves to the ideal of bringing "
@@ -5681,10 +5638,10 @@ msgid ""
 "piety also grants them certain powers, allowing them to guard their people "
 "against magical or unnatural things."
 msgstr ""
-"Merenmiehet jakavat uskon, jota suuri osa ihmiskunnasta seuraa, joskin "
+"Merenväki jakavat uskon, jota suuri osa ihmiskunnasta seuraa, joskin "
 "kulttuurillisista syistä sen ylläpito kuuluu merenneidoille, jotka ovat "
 "enemmän älyllisesti suuntautuneita. He omistavat itsensä rauhan ja elämän "
-"tuomiseen mailmaan ja he tutkivat sairauden kukistamisen taitoa. Heidän "
+"tuomiseen maailmaan ja he tutkivat sairauden kukistamisen taitoa. Heidän "
 "uskonsa suo heille myös joitain henkisiä voimia, mikä sallii heidän suojella "
 "kansaansa maagisilta ja epäluonnollisilta olennoilta."
 
@@ -5736,7 +5693,7 @@ msgid ""
 "wreak damage. They are also useful in melee, even deep under the surface, "
 "which is something that certainly cannot be said of arrows."
 msgstr ""
-"Jousiammunta ei juurikaan ole merenmiesten suosiossa, sillä keihäänheitto "
+"Jousiammunta ei juurikaan ole merenväen suosiossa, sillä keihäänheitto "
 "palvelee heille samaa tarkoitusta. Vaikka heittokeihäitä veden alla vähän "
 "käytetäänkin, ne ovat erittäin hyödyllisiä pinnalla, jossa niiden paino "
 "sallii niiden lentää muutamia metrejä veden alle liikkuen yhä tarpeeksi "
@@ -5964,10 +5921,8 @@ msgstr "muste"
 
 #. [unit_type]: id=Dragonfly, race=monster
 #: data/core/units/monsters/Dragonfly.cfg:5
-#, fuzzy
-#| msgid "Dragoon"
 msgid "Dragonfly"
-msgstr "Rakuuna"
+msgstr "Sudenkorento"
 
 #. [unit_type]: id=Dragonfly, race=monster
 #: data/core/units/monsters/Dragonfly.cfg:27
@@ -6579,9 +6534,9 @@ msgid ""
 "even to the elite merfolk warriors, and are the reason they seldom inhabit "
 "waters far from the shore."
 msgstr ""
-"Merikäärmeet herättävät pelkoa ja kunnioitusta kalastajissa ja merimiehissä, "
+"Merikäärmeet herättävät pelkoa ja kunnioitusta kalastajissa ja merenväessä, "
 "ja niitä pidetään kansanperinnön mukaan usein meren vihaisina jumaluuksina. "
-"Nämä vaikeaselittäiset olennot, jotka pystyvät tuhoamaan laivoja "
+"Nämä vaikea selitteiset olennot, jotka pystyvät tuhoamaan laivoja "
 "vaivattomasti, joilla on näennäisesti loputon vahvuus ja elinvoima, ovat "
 "tuhoisia ja säälimättömiä kaikille, jotka yrittävät taistella niitä vastaan. "
 "Yleensä syvällä meressä asuvat merikäärmeet ovat vaarallisia jopa eliitille "

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-11-20 05:31 UTC\n"
-"PO-Revision-Date: 2023-01-05 12:04+0200\n"
+"PO-Revision-Date: 2023-01-07 14:02+0200\n"
 "Last-Translator: Jaakko Saarikko <jaakko.saarikko@protonmail.com>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -73,7 +73,7 @@ msgstr ""
 #. [campaign]: id=Descent_into_Darkness
 #: data/campaigns/Descent_Into_Darkness/_main.cfg:28
 msgid "(Intermediate level, 10 scenarios.)"
-msgstr "(Keskitasoa, 12 skenaariota, 12 % suomennettu)"
+msgstr "(Keskitasoa, 10 skenaariota, 12 % suomennettu)"
 
 #. [about]
 #: data/campaigns/Descent_Into_Darkness/_main.cfg:31
