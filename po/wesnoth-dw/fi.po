@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-12-18 01:09 UTC\n"
-"PO-Revision-Date: 2012-05-15 03:23+0300\n"
-"Last-Translator: Jarkko Patteri <jarkkopatteri@gmail.com>\n"
+"PO-Revision-Date: 2023-01-05 12:03+0200\n"
+"Last-Translator: Jaakko Saarikko <jaakko.saarikko@protonmail.com>\n"
 "Language-Team: Finnish <wiki.wesnoth.org/FinnishTranslation>\n"
-"Language: \n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. [campaign]: id=Dead_Water
 #: data/campaigns/Dead_Water/_main.cfg:13
@@ -32,7 +32,7 @@ msgstr "Kaupunkilainen"
 #. [campaign]: id=Dead_Water
 #: data/campaigns/Dead_Water/_main.cfg:18
 msgid "Easy"
-msgstr ""
+msgstr "Helppo"
 
 #. [campaign]: id=Dead_Water
 #: data/campaigns/Dead_Water/_main.cfg:19
@@ -41,17 +41,13 @@ msgstr "Taistelija"
 
 #. [campaign]: id=Dead_Water
 #: data/campaigns/Dead_Water/_main.cfg:19
-#, fuzzy
-#| msgid "(Normal)"
 msgid "Normal"
-msgstr "(Normaali)"
+msgstr "Normaali"
 
 #. [campaign]: id=Dead_Water
 #: data/campaigns/Dead_Water/_main.cfg:20
-#, fuzzy
-#| msgid "(Challenging)"
 msgid "Challenging"
-msgstr "(Haastava)"
+msgstr "Haastava"
 
 #. [campaign]: id=Dead_Water
 #: data/campaigns/Dead_Water/_main.cfg:20
@@ -60,10 +56,8 @@ msgstr "Soturi"
 
 #. [campaign]: id=Dead_Water
 #: data/campaigns/Dead_Water/_main.cfg:21
-#, fuzzy
-#| msgid "(Difficult)"
 msgid "Difficult"
-msgstr "(Vaikea)"
+msgstr "Vaikea"
 
 #. [campaign]: id=Dead_Water
 #: data/campaigns/Dead_Water/_main.cfg:21
@@ -81,18 +75,17 @@ msgid ""
 "your troops!\n"
 "\n"
 msgstr ""
-"Olet Kai Krellis, poika ja merenmiesten viimeisen kuninkaan perillinen, "
-"mutta vain poika. Pimeyden herra kääntää joukkoja epäkuolleiden orjiksi. "
-"Johda kansaasi ja suostuttele mahtava meren noita auttamaan valloituksen "
-"torjumisessa. Pohjoiset meret ovat vaarallisia, joten tarvitset oveluutta ja "
-"rohkeutta selvitäksesi. Mutta ensin sinun täytyy voittaa joukkojesi "
-"kunnioitus! \n"
+"Olet Kai Krellis, merenmiesten viimeisen kuninkaan perillinen, mutta vain "
+"poika. Manaaja kääntää alamaisiasi epäkuolleiden orjiksi! Johda kansaasi ja "
+"suostuttele mahtava meren lumoojatar auttamaan valloituksen torjumisessa. "
+"Pohjoiset meret ovat vaarallisia, joten tarvitset oveluutta ja rohkeutta "
+"selvitäksesi. Mutta ensin sinun täytyy voittaa joukkojesi kunnioitus! \n"
 "\n"
 
 #. [campaign]: id=Dead_Water
 #: data/campaigns/Dead_Water/_main.cfg:25
 msgid "(Intermediate level, 10 scenarios.)"
-msgstr "(Keskitasoa, 10 scenaariota)"
+msgstr "(Keskitasoa, 10 skenaariota, 85 % suomennettu)"
 
 #. [about]
 #: data/campaigns/Dead_Water/_main.cfg:31
@@ -121,16 +114,6 @@ msgstr "Tunkeutuminen!"
 
 #. [part]
 #: data/campaigns/Dead_Water/scenarios/01_Invasion.cfg:45
-#, fuzzy
-#| msgid ""
-#| "In the Far North, where the Mountains of Dorth approach the coast, lies a "
-#| "bay with a narrow mouth. In the calm waters of this bay lies the merfolk "
-#| "city of Jotha. The natural harbor and the prosperity of the dwellers "
-#| "within drew many envious eyes, but none could match the prowess of the "
-#| "merfolk in their aquatic domain. In most years, orcs from the port city "
-#| "of Tirigaz, further north, would raid against Jotha as predictably as the "
-#| "spring rains; always, they were driven back to dry land with heavy "
-#| "losses, the salt water of the bay stinging their wounds."
 msgid ""
 "In the Far North, where the foothills of the Heart Mountains approach the "
 "coast, lies a bay with a narrow mouth. In the calm waters of this bay lies "
@@ -141,14 +124,13 @@ msgid ""
 "spring rains; always, they were driven back to dry land with heavy losses, "
 "the salt water of the bay stinging their wounds."
 msgstr ""
-"Kaukana pohjoisessa, jossa Dorthin vuoristo kohtaa rannikon, sijaitsee "
-"lahti, jonka suuaukko on kapea. Lahden tyynissä vesissä on Jotha, "
-"merenmiesten kaupunki. Luontainen suoja ja asukkaiden vauraus aiheuttivat "
-"kateutta monissa, mutta kenestäkään ei ollut vastusta merenmiesten "
-"kyvykkyydelle heidän vetisessä asuinsijassaan. Aivan kutenMonena vuotena "
-"pohjoisessa sijaitsevan Tirigazin rannikkokaupungin örkit yrittivät ryöstää "
-"Jothan. Aina heidät lyötiin ja ajettiin pois, haavoittuneina ja suolaveden "
-"kirveleminä."
+"Kaukana pohjoisessa, jossa Sydänvuoret kohtaa rannikon, sijaitsee lahti, "
+"jonka suuaukko on kapea. Lahden tyynissä vesissä on Jotha, merenmiesten "
+"kaupunki. Luontainen satama ja asukkaiden vauraus aiheuttivat kateutta "
+"monissa, mutta kenestäkään ei ollut vastusta merenmiesten kyvykkyydelle "
+"heidän vetisessä asuinsijassaan. Monena vuotena pohjoisessa sijaitsevan "
+"Tirigazin rannikkokaupungin örkit yrittivät ryöstää Jothan. Aina heidät "
+"lyötiin ja ajettiin pois, haavoittuneina ja suolaveden kirveleminä."
 
 #. [part]
 #: data/campaigns/Dead_Water/scenarios/01_Invasion.cfg:50

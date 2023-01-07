@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-12-17 19:09-0600\n"
-"PO-Revision-Date: 2022-06-22 17:53+0300\n"
+"PO-Revision-Date: 2023-01-05 17:57+0200\n"
 "Last-Translator: Jaakko Saarikko <jaakko.saarikko@protonmail.com>\n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -219,10 +219,8 @@ msgstr ""
 
 #. [advanced_preference]: type=int
 #: data/advanced_preferences.cfg:167
-#, fuzzy
-#| msgid "Connection timed out"
 msgid "Server disconnect timeout"
-msgstr "Yhteys katkaistiin odotuksen jälkeen."
+msgstr "Palvelimen yhteyden aikakatkaisu"
 
 #. [advanced_preference]: type=int
 #: data/advanced_preferences.cfg:168
@@ -231,8 +229,10 @@ msgid ""
 "logged into the multiplayer server, you must log out and then log back in "
 "for this to take effect."
 msgstr ""
+"Sekunttien määrä, ennen kuin yhteys katkeaa. Jos olet tällä hetkellä "
+"kirjautunut moninpelipalvelimelle, sinun on kirjauduttava ulos ja sitten "
+"takaisin sisään, jotta tämä asetus astuu voimaan."
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [unstore_unit]
 #. [lua]: set_status
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_The_Desert_of_Death.cfg:365
@@ -253,7 +253,6 @@ msgstr "myrskyjen kolmikärki"
 msgid "Gold carryover:"
 msgstr "Kullan siirtosumma:"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [note]
 #. [lua]: generate_objectives
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/15_A_New_Land.cfg:248
@@ -3742,7 +3741,6 @@ msgstr "Luola"
 msgid "Fungus"
 msgstr "Sieni"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=village
 #: data/core/team-colors.cfg:195 src/terrain/terrain.cpp:188
 msgid "Village"
@@ -3773,13 +3771,11 @@ msgstr "Ei käveltävissä"
 msgid "Impassable"
 msgstr "Ylitsepääsemätön"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=fog
 #: data/core/team-colors.cfg:231 src/game_initialization/lobby_data.cpp:386
 msgid "Fog"
 msgstr "Sumu"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=shroud
 #: data/core/team-colors.cfg:237 src/game_initialization/lobby_data.cpp:389
 #: src/game_initialization/lobby_data.cpp:392
@@ -4159,7 +4155,6 @@ msgstr "Kyllä"
 msgid "No"
 msgstr "Ei"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=title
 #: data/gui/window/screenshot_notification.cfg:95
 #: src/hotkey/command_executor.cpp:635
@@ -4192,7 +4187,6 @@ msgid "(Note: You should use $replacement instead in new code)"
 msgstr ""
 "(Huom.: Sinun pitäisi käyttää sen sijaan $replacement uudessa koodissa)"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: wesnoth.deprecate_api
 #: data/lua/core/_initial.lua:38 src/deprecation.cpp:69
 msgid "Invalid deprecation level $level (should be 1-4)"
@@ -4203,31 +4197,26 @@ msgstr "Viallinen poistotaso $level (pitäisi olla 1-4)"
 msgid "Invalid deprecation level (should be 1-4)"
 msgstr "Viallinen poistotaso (pitäisi olla 1-4)"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml/harm_unit.lua:124 src/actions/attack.cpp:1069
 msgid "female^poisoned"
 msgstr "myrkytetty"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml/harm_unit.lua:126 src/actions/attack.cpp:1076
 msgid "female^slowed"
 msgstr "hidastettu"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml/harm_unit.lua:126 src/actions/attack.cpp:1076
 msgid "slowed"
 msgstr "hidastettu"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml/harm_unit.lua:127 src/actions/attack.cpp:1082
 msgid "female^petrified"
 msgstr "kivetetty"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml/harm_unit.lua:127 src/actions/attack.cpp:1082
 msgid "petrified"
@@ -4243,14 +4232,12 @@ msgstr "parantumaton"
 msgid "unhealable"
 msgstr "parantumaton"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: wesnoth.wml_actions.message
 #: data/lua/wml/message.lua:433 src/scripting/game_lua_kernel.cpp:3224
 #: src/scripting/game_lua_kernel.cpp:3259
 msgid "input"
 msgstr "syöte"
 
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: generate_objectives
 #: data/lua/wml/objectives.lua:36 src/game_initialization/mp_game_utils.cpp:76
 msgid "Victory:"
@@ -5340,6 +5327,9 @@ msgid ""
 "the underworld hinders the flightless, while offering illumination in "
 "darkness to those that may fly above it."
 msgstr ""
+"Keitaan puhdistavat vedet parantavat loukkaantuneita. Alamaailman tulinen "
+"koleerisuus estää lentokyvyttömiä ja tarjoaa samalla valaistusta pimeydessä "
+"niille, jotka voivat lentää sen yläpuolella."
 
 #. [tip]
 #: data/tips.cfg:258
@@ -5401,7 +5391,7 @@ msgstr ""
 #. other players. It will be embedded within a message.
 #: src/actions/advancement.cpp:259
 msgid "waiting for^an advancement choice"
-msgstr "odotetaan^valintaa ylennyksistä"
+msgstr "valintaa ylennyksistä"
 
 #: src/actions/attack.cpp:597 src/actions/attack.cpp:1388
 msgid "An invalid attacker weapon got selected."
@@ -5556,8 +5546,8 @@ msgstr ""
 
 #: src/addon/client.cpp:211
 msgid ""
-"The connection to the remote server is not secure. The add-on "
-"<i>$addon_title</i> cannot be uploaded."
+"The connection to the remote server is not secure. The add-on <i>"
+"$addon_title</i> cannot be uploaded."
 msgstr ""
 "Yhteys etäpalvelimeen ei ole suojattu. Lisäosaa <i>$addon_title</i> ei voida "
 "lähettää."
@@ -5587,10 +5577,8 @@ msgid "Add-ons Manager"
 msgstr "Lisäosamanageri"
 
 #: src/addon/client.cpp:348
-#, fuzzy
-#| msgid "Sending add-on <i>$addon_title</i>..."
 msgid "Installing add-on <i>$addon_title</i>..."
-msgstr "Lähetetään lisäosaa <i>$addon_title</i>..."
+msgstr "Asennetaan lisäosaa <i>$addon_title</i>..."
 
 #: src/addon/client.cpp:360 src/addon/client.cpp:386
 msgid ""
@@ -6511,16 +6499,16 @@ msgstr "rajaton"
 
 #: src/game_initialization/lobby_data.cpp:447
 msgid ""
-"The host's version of <i>$addon</i> is incompatible. They have version "
-"<b>$host_ver</b> while you have version <b>$local_ver</b>."
+"The host's version of <i>$addon</i> is incompatible. They have version <b>"
+"$host_ver</b> while you have version <b>$local_ver</b>."
 msgstr ""
 "Isännän versio <i>$addon</i>-lisäosasta on yhteensopimaton. Hänellä on "
 "versio <b>$host_ver</b> kun sinulla on versio <b>$local_ver</b>."
 
 #: src/game_initialization/lobby_data.cpp:461
 msgid ""
-"Your version of <i>$addon</i> is incompatible. You have version "
-"<b>$local_ver</b> while the host has version <b>$host_ver</b>."
+"Your version of <i>$addon</i> is incompatible. You have version <b>"
+"$local_ver</b> while the host has version <b>$host_ver</b>."
 msgstr ""
 "Sinun versiosi <i>$addon</i>-lisäosasta on yhteensopimaton. Sinulla on "
 "versio <b>$local_ver</b> kun isännällä on versio <b>$host_ver</b>."
@@ -6535,7 +6523,7 @@ msgstr "Aikakautta '$era' ei löydy"
 
 #: src/game_initialization/multiplayer.cpp:238
 msgid "Invalid address specified for multiplayer server"
-msgstr "Virheellinen osoite asetettu moninpelipalvelimelle."
+msgstr "Virheellinen osoite asetettu moninpelipalvelimelle"
 
 #: src/game_initialization/multiplayer.cpp:273
 msgid ""
@@ -6857,7 +6845,7 @@ msgstr "Näkyviä osapuolia ei löytynyt."
 
 #: src/gui/dialogs/multiplayer/lobby_player_list_helper.cpp:173
 msgid "Selected Game"
-msgstr "Valittu peli:"
+msgstr "Valittu peli"
 
 #: src/gui/dialogs/multiplayer/lobby_player_list_helper.cpp:174
 msgid "Lobby"
@@ -7010,16 +6998,12 @@ msgstr "Suuntautuminen: "
 #. TRANSLATORS: this is expected to say "[Dunefolk are] a group of units, all of whom are Humans",
 #. or "[Quenoth Elves are] a group of units, all of whom are Elves".
 #: src/help/help_impl.cpp:1072
-#, fuzzy
-#| msgid ""
-#| "This is a group of units, all of whom are <ref>dst='$topic_id' "
-#| "text='$help_taxonomy'</ref>"
 msgid ""
 "This is a group of units, all of whom are <ref>dst='$topic_id' "
 "text='$help_taxonomy'</ref>."
 msgstr ""
 "Tämä on ryhmä yksiköitä, jotka ovat kaikki <ref>dst='$topic_id' "
-"text='$help_taxonomy'</ref>"
+"text='$help_taxonomy'</ref>."
 
 #: src/help/help_impl.cpp:1077
 msgid "<header>text='Subgroups of units within this group'</header>"
