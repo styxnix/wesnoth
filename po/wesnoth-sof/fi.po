@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-11-20 05:31 UTC\n"
-"PO-Revision-Date: 2023-01-05 13:56+0200\n"
+"PO-Revision-Date: 2023-01-13 12:39+0200\n"
 "Last-Translator: Jaakko Saarikko <jaakko.saarikko@protonmail.com>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -204,7 +204,7 @@ msgstr ""
 "Ma kerron sulle, kuinka se tehtiin. Tarinan, syvältä kääpiöiden luolista. "
 "Tarinan kääpiöistä, jotka sen teki - Sill' totisesti, ne pojat mahtavia oli. "
 "Niin mahtavia, että he saivat paikkansa muinaisen Knalgan mahtavimpien "
-"sankareiden joukosta. "
+"sankareiden joukosta."
 
 #. [part]
 #: data/campaigns/Sceptre_of_Fire/scenarios/1_A_Bargain_is_Struck.cfg:197
