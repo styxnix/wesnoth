@@ -6,7 +6,7 @@
 # Automatically generated, 2004.
 # Samu Voutilainen <smar@smar.fi>, 2010.
 # Jarkko Patteri <jarkkopatteri@gmail.com>, 2012.
-# Jaakko Saarikko <jaakko.saarikko@protonmail.com>, 2022
+# Jaakko Saarikko <jaakko.saarikko@protonmail.com>, 2023
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 0.8.2-CVS\n"

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# Jaakko Saarikko <jaakko.saarikko@protonmail.com>, 2023
+>>>>>>> d9be7246902987234345a5038f2ded71ddffec53
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"

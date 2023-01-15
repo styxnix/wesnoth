@@ -1,5 +1,6 @@
 # Translation of Wesnoth: Son of the Black-Eye to Finnish
 # Samu Voutilainen <smar@smar.fi>, 2010.
+# Jaakko Saarikko <jaakko.saarikko@protonmail.com>, 2023
 msgid ""
 msgstr ""
 "Project-Id-Version: MediaWiki 1.13alpha (r37846)\n"

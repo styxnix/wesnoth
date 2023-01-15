@@ -1,4 +1,5 @@
 # Jarkko Patteri <jarkkopatteri@gmail.com>, 2011, 2012.
+# Jaakko Saarikko <jaakko.saarikko@protonmail.com>, 2023
 msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"

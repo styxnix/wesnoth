@@ -4,10 +4,15 @@
 # Automatically generated, 2006.
 # Samu Voutilainen <smar@smar.fi>, 2010.
 # Jarkko Patteri <jarkkopatteri@gmail.com>, 2012.
+# Jaakko Saarikko <jaakko.saarikko@protonmail.com>, 2023
 msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth\n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2022-08-20 19:46-0500\n"
+=======
+"POT-Creation-Date: 2023-01-14 18:20-0600\n"
+>>>>>>> d9be7246902987234345a5038f2ded71ddffec53
 "PO-Revision-Date: 2023-01-05 16:08+0200\n"
 "Last-Translator: Jaakko Saarikko <jaakko.saarikko@protonmail.com>\n"
 "Language-Team: Finnish <http://wiki.wesnoth.org/FinnishTranslation>\n"
@@ -548,12 +553,18 @@ msgstr "listaa määritetyt lokit (vain sellaiset, jotka sisältää B<filter>, 
 #: doc/man/wesnoth.6:192
 #, fuzzy, no-wrap
 #| msgid "B<--nomusic>"
-msgid "B<--log-to-file>"
+msgid "B<--no-log-to-file>"
 msgstr "B<--nomusic>"
 
 #. type: Plain text
 #: doc/man/wesnoth.6:195
+<<<<<<< HEAD
 msgid "redirects logged output to a file. Log files are created in the logs directory under the userdata folder."
+=======
+msgid ""
+"prevents redirecting logged output to a file. Log files are created in the "
+"logs directory under the userdata folder."
+>>>>>>> d9be7246902987234345a5038f2ded71ddffec53
 msgstr ""
 
 # type: TP
