@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-08-21 00:47 UTC\n"
-"PO-Revision-Date: 2023-01-11 00:31+0200\n"
+"PO-Revision-Date: 2023-05-14 14:18+0300\n"
 "Last-Translator: Jaakko Saarikko <jaakko.saarikko@protonmail.com>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -213,7 +213,7 @@ msgstr "<i>Uuden velhon seremonia</i>"
 #. [part]
 #: data/campaigns/Delfadors_Memoirs/scenarios/01_Overture.cfg:68
 msgid "and"
-msgstr " ja"
+msgstr "ja"
 
 #. [part]
 #: data/campaigns/Delfadors_Memoirs/scenarios/01_Overture.cfg:71
@@ -688,7 +688,7 @@ msgstr "Hagha-Tan"
 #: data/campaigns/Delfadors_Memoirs/scenarios/20_Prince_of_Wesnoth.cfg:99
 #: data/campaigns/Delfadors_Memoirs/scenarios/21_Clash_at_the_Manor.cfg:79
 msgid "Loyalists"
-msgstr ""
+msgstr "Uskolliset"
 
 #. [objective]: condition=win
 #: data/campaigns/Delfadors_Memoirs/scenarios/04_Leollyn.cfg:117
@@ -768,15 +768,11 @@ msgstr "Sinä olet rohkea taistelija, nuori ystävä."
 
 #. [message]: speaker=Leollyn
 #: data/campaigns/Delfadors_Memoirs/scenarios/04_Leollyn.cfg:212
-#, fuzzy
-#| msgid "I’ve told you, all of you have to be extra careful!"
 msgid "All of you have to be extra careful!"
-msgstr "Minähän sanoin että kaikkien teidän täytyy olla erityisen varovaisia!"
+msgstr "Teidän kaikkien teidän täytyy olla erityisen varovaisia!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/Delfadors_Memoirs/scenarios/04_Leollyn.cfg:216
-#, fuzzy
-#| msgid "Kill them all! For our murdered friends."
 msgid "Kill them all! For our slain friend."
 msgstr "Tappakaa heidät kaikki! Murhattujen ystäviemme puolesta."
 
@@ -790,10 +786,6 @@ msgstr ""
 
 #. [message]: speaker=Leollyn
 #: data/campaigns/Delfadors_Memoirs/scenarios/04_Leollyn.cfg:239
-#, fuzzy
-#| msgid ""
-#| "Well now, you arrived just in the nick of time. A fellow mage, too, I "
-#| "see. Now what did you say your name was?"
 msgid ""
 "Well now, you arrived just in the nick of time. A fellow mage too, I see. "
 "Now what did you say your name was?"
