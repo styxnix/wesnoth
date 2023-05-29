@@ -384,7 +384,7 @@ static int process_command_args(const commandline_options& cmdline_opts)
 	}
 
 	if(cmdline_opts.usercache_path) {
-		PLAIN_LOG << filesystem::get_cache_dir();
+		std::cout << filesystem::get_cache_dir();
 		return 0;
 	}
 
@@ -393,7 +393,7 @@ static int process_command_args(const commandline_options& cmdline_opts)
 	}
 
 	if(cmdline_opts.userconfig_path) {
-		PLAIN_LOG << filesystem::get_user_config_dir();
+		std::cout << filesystem::get_user_config_dir();
 		return 0;
 	}
 
@@ -402,7 +402,7 @@ static int process_command_args(const commandline_options& cmdline_opts)
 	}
 
 	if(cmdline_opts.userdata_path) {
-		PLAIN_LOG << filesystem::get_user_data_dir();
+		std::cout << filesystem::get_user_data_dir();
 		return 0;
 	}
 
@@ -434,7 +434,7 @@ static int process_command_args(const commandline_options& cmdline_opts)
 	}
 
 	if(cmdline_opts.data_path) {
-		PLAIN_LOG << game_config::path;
+		std::cout << game_config::path;
 		return 0;
 	}
 
@@ -1056,11 +1056,12 @@ int main(int argc, char** argv)
 	_putenv("FONTCONFIG_PATH=fonts");
 #endif
 
-	// terminal_force means output has been explicitly (via command line argument)
-	// or implicitly (by a command line argument that implies an interactive terminal has been used) requested on standard out.
-	// write_to_log_file means that writing to the log file will be done. terminal_force takes priority, but writing to a log file is the default.
-	bool terminal_force = false;
+	// write_to_log_file means that writing to the log file will be done, if true.
+	// if false, output will be written to the terminal
+	// on windows, if wesnoth was not started from a console, then it will allocate one
 	bool write_to_log_file = true;
+	[[maybe_unused]]
+	bool no_con = false;
 
 	// --nobanner needs to be detected before the main command-line parsing happens
 	// --log-to needs to be detected so the logging output location is set before any actual logging happens
@@ -1074,11 +1075,11 @@ int main(int argc, char** argv)
 
 	// Some switches force a Windows console to be attached to the process even
 	// if Wesnoth is an IMAGE_SUBSYSTEM_WINDOWS_GUI executable because they
-	// turn it into a CLI application. Also, --wconsole in particular attaches
+	// turn it into a CLI application. Also, --no-log-to-file in particular attaches
 	// a console to a regular GUI game session.
 	//
 	// It's up to commandline_options later to handle these switches (except
-	// --wconsole) later and emit any applicable console output, but right here
+	// --no-log-to-file) later and emit any applicable console output, but right here
 	// we need a rudimentary check for the switches in question to set up the
 	// console before proceeding any further.
 	for(const auto& arg : args) {
@@ -1103,33 +1104,27 @@ int main(int argc, char** argv)
 
 		if(terminal_switches.find(arg) != terminal_switches.end() ||
 			std::find_if(terminal_arg_switches.begin(), terminal_arg_switches.end(), switch_matches_arg) != terminal_arg_switches.end()) {
-			terminal_force = true;
-		}
-
-#ifdef _WIN32
-		if(arg == "--wnoconsole") {
-			terminal_force = false;
-		} else if(arg == "--wconsole") {
-			terminal_force = true;
-		} else if(arg == "--wnoredirect") {
 			write_to_log_file = false;
 		}
-#endif
 
 		if(arg == "--no-log-to-file") {
-			terminal_force = true;
+			write_to_log_file = false;
 		} else if(arg == "--log-to-file") {
 			write_to_log_file = true;
+		}
+
+		if(arg == "--no-con") {
+			no_con = true;
 		}
 	}
 
 	// setup logging to file
-	// else handle redirecting the output and/or attaching a console
-	if(write_to_log_file && !terminal_force) {
+	// else handle redirecting the output and potentially attaching a console on windows
+	if(write_to_log_file) {
 		lg::set_log_to_file();
 	} else {
 #ifdef _WIN32
-		lg::do_console_redirect(terminal_force);
+		lg::do_console_redirect(no_con);
 #endif
 	}
 

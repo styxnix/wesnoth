@@ -49,15 +49,15 @@ namespace lg
 namespace
 {
 /**
- * Singleton class that deals with the intricacies of log file redirection.
+ * Singleton class that handles sending logging output to a console on windows.
  */
-class log_file_manager
+class console_handler
 {
 public:
-	log_file_manager(const log_file_manager&) = delete;
-	log_file_manager& operator=(const log_file_manager&) = delete;
+	console_handler(const console_handler&) = delete;
+	console_handler& operator=(const console_handler&) = delete;
 
-	log_file_manager(bool native_console);
+	console_handler(bool no_con);
 
 	/**
 	 * Returns whether we own the console we are attached to, if any.
@@ -68,15 +68,12 @@ private:
 	bool created_wincon_;
 
 	/**
-	 * Switches to using a native console instead of log file redirection.
-	 *
-	 * This is an irreversible operation right now. This might change later if
-	 * someone deems it useful.
+	 * Switches to using a native console.
 	 */
-	void enable_native_console_output();
+	void enable_native_console_output(bool no_con);
 };
 
-log_file_manager::log_file_manager(bool native_console)
+console_handler::console_handler(bool no_con)
 	: created_wincon_(false)
 {
 	DBG_LS << "Early init message";
@@ -86,19 +83,19 @@ log_file_manager::log_file_manager(bool native_console)
 		// with the console subsystem flag and that the standard streams are
 		// already pointing to the console.
 		LOG_LS << "Console already attached at startup (built with console subsystem flag?), log file disabled.";
-	} else if(native_console) {
-		enable_native_console_output();
+	} else {
+		enable_native_console_output(no_con);
 	}
 
 	DBG_LS << "Windows console init complete!";
 }
 
-bool log_file_manager::owns_console() const
+bool console_handler::owns_console() const
 {
 	return created_wincon_;
 }
 
-void log_file_manager::enable_native_console_output()
+void console_handler::enable_native_console_output(bool no_con)
 {
 	if(AttachConsole(ATTACH_PARENT_PROCESS)) {
 		LOG_LS << "Attached parent process console.";
@@ -114,35 +111,32 @@ void log_file_manager::enable_native_console_output()
 		WRN_LS << "Cannot attach or allocate a console, continuing anyway (is this Wine?)";
 	}
 
-	DBG_LS << "stderr to console";
-	fflush(stderr);
-	std::cerr.flush();
-	assert(freopen("CONOUT$", "wb", stderr) == stderr);
+	if(!no_con) {
+		DBG_LS << "stderr to console";
+		fflush(stderr);
+		std::cerr.flush();
+		assert(freopen("CONOUT$", "wb", stderr) == stderr);
 
-	DBG_LS << "stdout to console";
-	fflush(stdout);
-	std::cout.flush();
-	assert(freopen("CONOUT$", "wb", stdout) == stdout);
+		DBG_LS << "stdout to console";
+		fflush(stdout);
+		std::cout.flush();
+		assert(freopen("CONOUT$", "wb", stdout) == stdout);
 
-	DBG_LS << "stdin from console";
-	assert(freopen("CONIN$",  "rb", stdin) == stdin);
-
-	// At this point the log file has been closed and it's no longer our
-	// responsibility to clean up anything; Windows will figure out what to do
-	// when the time comes for the process to exit.
-	lg::set_log_file_path("");
+		DBG_LS << "stdin from console";
+		assert(freopen("CONIN$",  "rb", stdin) == stdin);
+	}
 
 	LOG_LS << "Console streams handover complete!";
 }
 
-std::unique_ptr<log_file_manager> lfm;
+std::unique_ptr<console_handler> lfm;
 
 } // end anonymous namespace
 
-void do_console_redirect(bool native_console)
+void do_console_redirect(bool no_con)
 {
 	if(!lfm) {
-		lfm.reset(new log_file_manager(native_console));
+		lfm.reset(new console_handler(no_con));
 	}
 }
 
